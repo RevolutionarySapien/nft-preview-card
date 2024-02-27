@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+/* Colors */
+body {
+  display: grid;
+  place-items: center;
+  background-color: var(--Very-dark-blue);
+  height: 100vh;
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+}
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  /* Neutral */
+
+  /* main BG */
+  --Very-dark-blue: hsl(217, 54%, 11%);
+
+  /* (card BG) */
+  --dark-blue: hsl(216, 50%, 16%);
+  /* (line) */
+  --blue: hsl(215, 32%, 27%);
+
+  --White: hsl(0, 0%, 100%);
+
+  /* Typography */
+
+  /* (paragraph) */
+  --Font-size: 18px;
+
+  /* --Weights: 300, 400, 600 */
+}

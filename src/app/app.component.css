@@ -1,0 +1,108 @@
+.container {
+  max-width: 19rem;
+  background-color: var(--dark-blue);
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-inline: 1rem;
+}
+
+.img-wrapper {
+  width: 19rem;
+  height: 19rem;
+  background-image: url("src/images/image-equilibrium.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  transition-duration: 2s;
+}
+
+.img-wrapper:hover,
+.img-wrapper:focus {
+  background-image: linear-gradient(
+      to right bottom,
+      hsla(178, 100%, 50%, 0.51),
+      hsla(178, 100%, 50%, 0.51)
+    ),
+    url("src/images/image-equilibrium.jpg");
+}
+
+p {
+  line-height: 1.8rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+p,
+.time-left {
+  color: var(--Soft-blue);
+}
+
+h2 {
+  color: var(--White);
+  padding: 1.4rem 0;
+  font-weight: 500;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+h2:hover,
+.creator p span:hover {
+  color: var(--Cyan);
+}
+
+.creator {
+  display: flex;
+  /* justify-content: center;*/
+  align-items: center;
+  margin-top: 1rem;
+  height: 3rem;
+  width: 100%;
+}
+
+.creator p span {
+  color: var(--White);
+  transition: 0.5s;
+}
+
+.creation-text {
+  /* font-size: 1rem; */
+}
+
+.eth-time-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  margin-top: 0.3rem;
+  border-bottom: 1px solid rgba(123, 123, 123, 0.544);
+}
+
+.eth-text {
+  color: var(--Cyan);
+}
+
+.eth-text,
+.time-left {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.eth-text svg,
+.time-left svg {
+  margin-right: 0.5rem;
+}
+
+.creator-img {
+  margin-right: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-image: url("src/images/image-avatar.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 375px) {
+}
